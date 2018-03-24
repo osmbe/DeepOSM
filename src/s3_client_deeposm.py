@@ -44,5 +44,5 @@ def post_findings_to_s3(raster_data_paths, model, training_info, bands, render_r
         pickle.dump(findings, outfile)
 
     # push pickle to S3
-    s3_client = boto3.client('s3')
-    s3_client.upload_file(local_path, FINDINGS_S3_BUCKET, naip_path_in_cache_dir)
+    # s3_client = boto3.client('s3')
+    # s3_client.upload_file(local_path, FINDINGS_S3_BUCKET, naip_path_in_cache_dir)

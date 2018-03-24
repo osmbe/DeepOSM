@@ -60,9 +60,12 @@ class NAIPDownloader:
     def configure_s3cmd(self):
         """Configure s3cmd with AWS credentials."""
         file_path = os.environ.get("HOME") + '/.s3cfg'
+        print(file_path)
         f = open(file_path, 'r')
+        print(file_path)
         filedata = f.read()
         f.close()
+        print(file_path)
         access = os.environ.get("AWS_ACCESS_KEY_ID")
         secret = os.environ.get("AWS_SECRET_ACCESS_KEY")
         newdata = filedata.replace("AWS_ACCESS_KEY", access)

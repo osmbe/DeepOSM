@@ -1,4 +1,22 @@
-# DeepOSM [![Build Status](https://travis-ci.org/trailbehind/DeepOSM.svg?branch=master)](https://travis-ci.org/trailbehind/DeepOSM)
+# DeepOSM 
+
+** this is @xivk trying to figure out how this works**
+
+### Data prep  
+
+- Imagery and ways are combined to create training data.
+- Then things are split up into tiles with two images:
+  - one with pixels for where there are roads.
+  - one with the imagery.
+
+### Training  
+
+- Select 100 tiles that have roads/not roads.
+- Use them in batches to train the model.
+
+Need to check this: https://github.com/jtoy/awesome-tensorflow#videos
+
+## The original docs
 
 Classify roads and features in satellite imagery, by training neural networks with OpenStreetMap (OSM) data. 
 

@@ -1,0 +1,6 @@
+FROM tensorflow/tensorflow:0.8.0
+
+WORKDIR /DeepOSM
+
+# default command is to just open a bash shell
+CMD /bin/bash
