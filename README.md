@@ -383,3 +383,9 @@ This was the general idea to start, and working with TMS tiles sort of worked (s
 
 ![Deep OSM Project](https://gaiagps.mybalsamiq.com/mockups/4278030.png?key=1e42f249214928d1fa7b17cf866401de0c2af867)
 
+### Relevant links
+
+
+https://github.com/arahusky/Tensorflow-Segmentation
+https://www.developmentseed.org/blog/2018/02/13/tensorflow-object-detection-case/
+https://www.cs.toronto.edu/%7Evmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf
