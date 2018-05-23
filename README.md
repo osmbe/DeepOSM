@@ -389,3 +389,4 @@ This was the general idea to start, and working with TMS tiles sort of worked (s
 https://github.com/arahusky/Tensorflow-Segmentation
 https://www.developmentseed.org/blog/2018/02/13/tensorflow-object-detection-case/
 https://www.cs.toronto.edu/%7Evmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf
+https://twitter.com/drewbo19/status/998587518063927296?s=19
